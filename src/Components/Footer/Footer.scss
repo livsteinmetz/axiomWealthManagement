@@ -1,0 +1,34 @@
+@import "../../index.scss";
+
+#Footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  padding: 16px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  #BrokerCheck {
+    background: $white;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 $shadow;
+    padding: 4px 16px;
+    transition: all 0.16s ease;
+    img {
+      width: 96px;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 8px 0 $shadow;
+      transform-origin: bottom right;
+    }
+  }
+  p {
+    margin: 0;
+    background: rgba($primary, 0.64);
+  }
+}

@@ -1,0 +1,38 @@
+@import "../../index.scss";
+
+#Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $primary;
+  padding: 16px;
+
+  img {
+    height: 64px;
+  }
+
+  #HeaderLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div {
+      font-weight: 300;
+      font-size: 18px;
+      color: $white;
+      padding: 32px;
+      transition: all 0.16s;
+      cursor: pointer;
+      border-radius: 8px;
+
+      &:hover {
+        font-weight: 900;
+        background: rgba($secondary, 0.32);
+      }
+    }
+  }
+}
