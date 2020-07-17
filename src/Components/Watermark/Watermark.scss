@@ -1,0 +1,14 @@
+@import "../../index.scss";
+
+#Watermark {
+  position: fixed;
+  height: 92vh;
+  right: -8vh;
+  bottom: -8vh;
+  opacity: 0.03;
+  z-index: -1;
+
+  @media (max-width: $mobile) {
+    right: 4vh;
+  }
+}

@@ -1,0 +1,36 @@
+@import "../../index.scss";
+
+.Input {
+  position: relative;
+  width: 100%;
+  margin: 8px 0;
+  div {
+    position: absolute;
+    color: $secondary;
+    font-weight: 700;
+    z-index: 2;
+    padding: 14px 16px;
+    font-size: 18px;
+    pointer-events: none;
+    transition: all 0.2s ease;
+
+    &.focused {
+      padding: 6px 16px;
+      font-size: 10px;
+    }
+  }
+
+  input,
+  textarea {
+    position: relative;
+    font-family: $fontBody;
+    border: 0;
+    border-radius: 8px;
+    padding: 20px 16px 8px 16px;
+    font-size: 18px;
+    color: $primary;
+    width: 100%;
+    background: #eee;
+    z-index: 1;
+  }
+}

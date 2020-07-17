@@ -1,10 +1,10 @@
 import React from "react";
-import "./About.scss";
+import "./Services.scss";
 
-export default function About() {
+export default function Services() {
   return (
-    <div id="About">
-      <div id="AboutAxiom">
+    <div id="Services">
+      <div id="ServicesAxiom">
         <img src="/icon_white.png" alt="Pillars" />
         <div id="Definition">
           <h3>Axiom</h3>
@@ -28,7 +28,7 @@ export default function About() {
           </ul>
         </div>
       </div>
-      <div id="AboutSethMcHenry">
+      <div id="ServicesSethMcHenry">
         <img src="/seth.png" alt="Seth McHenry" />
         <div>
           <h3>Seth McHenry, CRPC</h3>

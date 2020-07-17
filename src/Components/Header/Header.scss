@@ -8,31 +8,78 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: $primary;
+  background: linear-gradient(to bottom, $primary, rgba($primary, 0));
   padding: 16px;
+  z-index: 10;
+  overflow: hidden;
+  max-height: 84px;
+  transition: all 0.32s ease;
+  @media (max-width: $mobile) {
+    background: $primary;
+    box-shadow: 0 8px 16px 0 $shadow;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  &.expanded {
+    max-height: 100vh;
+  }
 
   img {
     height: 64px;
+    cursor: pointer;
+
+    @media (max-width: $mobile) {
+      height: 48px;
+    }
+  }
+
+  #Menu {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    height: 42px;
   }
 
   #HeaderLinks {
     display: flex;
     align-items: center;
     justify-content: center;
+    @media (max-width: $mobile) {
+      flex-direction: column;
+      margin-top: 16px;
+    }
 
     div {
-      font-weight: 300;
-      font-size: 18px;
+      font-weight: 500;
+      font-size: 20px;
       color: $white;
-      padding: 32px;
+      padding: 24px 32px;
       transition: all 0.16s;
       cursor: pointer;
       border-radius: 8px;
 
       &:hover {
         font-weight: 900;
-        background: rgba($secondary, 0.32);
+        background: rgba($secondary, 0.64);
+      }
+
+      @media (max-width: $mobile) {
+        font-family: $fontHeader;
+        padding: 12px;
+        font-size: 32px;
+        font-weight: 300;
+        text-transform: uppercase;
+
+        &:hover {
+          font-weight: 300;
+          background: none;
+        }
       }
     }
+  }
+
+  p {
+    font-size: 12px;
   }
 }

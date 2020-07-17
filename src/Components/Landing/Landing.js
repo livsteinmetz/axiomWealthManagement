@@ -1,7 +1,7 @@
 import React from "react";
 import "./Landing.scss";
 
-export default function Landing() {
+export default function Landing({ scrollTo }) {
   return (
     <div id="Landing">
       <h1>
@@ -19,8 +19,8 @@ export default function Landing() {
       </div>
 
       <div id="LandingButtons">
-        <button>About Axiom</button>
-        <button>Schedule a Meeting</button>
+        <button onClick={() => scrollTo("About")}>About Axiom</button>
+        <button onClick={() => scrollTo("Contact")}>Schedule a Meeting</button>
       </div>
     </div>
   );

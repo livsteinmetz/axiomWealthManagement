@@ -9,9 +9,75 @@
       name="description"
       content="Axiom | It's not just business, it's personal."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Axiom Wealth Management</title>
+
+    <!-- OpenGraph Social Preview Tags -->
+    <meta property="og:image" content="%PUBLIC_URL%/og.png" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Axiom Wealth Management" />
+    <meta
+      property="og:description"
+      content="It's not just business, it's personal."
+    />
+    <!-- End OpenGraph Social Preview Tags -->
+
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <script>
+      window.formbutton =
+        window.formbutton ||
+        function () {
+          (formbutton.q = formbutton.q || []).push(arguments);
+        };
+      formbutton("create", {
+        action: "https://formspree.io/xjvaplje",
+        title: "👋 Reach out to Axiom",
+        styles: {
+          fontFamily: '"Lato", sans-serif',
+          button: {
+            background: "#2792e9",
+          },
+          title: {
+            background: "#2792e9",
+          },
+          input: {
+            background: "#eeeeee",
+            padding: "16px",
+            borderRadius: "8px",
+          },
+        },
+        fields: [
+          {
+            name: "name",
+            type: "text",
+            label: "Your Name",
+            required: true,
+          },
+          {
+            name: "email",
+            type: "email",
+            label: "Your Email",
+            required: true,
+          },
+          {
+            name: "Message",
+            type: "textarea",
+            placeholder: "How can we help?",
+            required: true,
+          },
+          {
+            type: "submit",
+          },
+        ],
+      });
+    </script>
   </head>
   <body>
     <div id="root"></div>
