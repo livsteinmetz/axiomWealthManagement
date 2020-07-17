@@ -29,6 +29,8 @@
 
   img {
     width: 240px;
+    height: 240px;
+    object-fit: cover;
     margin: 16px 32px 16px 16px;
   }
 
@@ -49,6 +51,7 @@
       border-radius: 50%;
       border: 7px solid white;
       padding: 5px;
+      flex-shrink: 0;
     }
     @media (max-width: $mobile) {
       flex-direction: column;
