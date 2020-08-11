@@ -14,7 +14,7 @@ export default function Header({ scrollTo }) {
       />
       <div id="HeaderLinks" onClick={toggleExpanded}>
         {window.innerWidth < 600 && (
-          <div onClick={() => scrollTo("Home")}>Home</div>
+          <div onClick={() => scrollTo("Landing")}>Home</div>
         )}
         <div onClick={() => scrollTo("About")}>About</div>
         <div onClick={() => scrollTo("Services")}>Services</div>

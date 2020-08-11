@@ -27,11 +27,7 @@ export default function App() {
         <About />
       </section>
       <section ref={(s) => (refs.Services = s)}>
-        <Masthead
-          text="Defining needs, goals and dreams."
-          img="/mh2.png"
-          alignRight
-        />
+        <Masthead text="Defining needs, goals and dreams." img="/mh2.png" />
         <Services />
       </section>
       <section ref={(s) => (refs.Media = s)}>
@@ -39,7 +35,7 @@ export default function App() {
         <Media />
       </section>
       <section ref={(s) => (refs.Contact = s)}>
-        <Masthead text="Get in touch." img="/mh4.png" alignRight />
+        <Masthead text="Get in touch." img="/mh4.png" />
         <Contact />
       </section>
       <Footer />

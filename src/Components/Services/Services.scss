@@ -19,7 +19,7 @@
   }
 
   p {
-    line-height: 1.4;
+    line-height: 1.5;
     font-weight: 500;
   }
 
@@ -34,6 +34,11 @@
     margin: 16px 32px 16px 16px;
   }
 
+  strong {
+    cursor: pointer;
+    color: $secondary;
+  }
+
   #ServicesAxiom {
     display: flex;
     align-items: center;
@@ -43,18 +48,51 @@
     }
   }
 
-  #ServicesSethMcHenry {
+  #Modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.64);
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin: 0px 0;
-    img {
-      border-radius: 50%;
-      border: 7px solid white;
-      padding: 5px;
-      flex-shrink: 0;
+    z-index: 20;
+
+    #ServicesModal {
+      position: relative;
+      width: 92%;
+      max-width: 800px;
+      max-height: 92%;
+      overflow-y: auto;
+      background: $white;
+      padding: 32px;
+      animation: fade-in 0.32s ease;
+      @media (max-width: $mobile) {
+        padding: 16px;
+      }
+      h3,
+      ul,
+      h4,
+      p {
+        color: $primary;
+      }
+      #CloseModal {
+        position: absolute;
+        margin: 0;
+        top: 16px;
+        right: 16px;
+        width: 32px;
+        height: 32px;
+        opacity: 0.64;
+        cursor: pointer;
+      }
     }
-    @media (max-width: $mobile) {
-      flex-direction: column;
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
     }
   }
 }

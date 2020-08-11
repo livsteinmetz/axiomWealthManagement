@@ -6,7 +6,7 @@ export default function Landing({ scrollTo }) {
     <div id="Landing">
       <h1>
         It's not just business, <br />
-        it's personal
+        it's personal.
       </h1>
 
       <div id="LandingInfo">
@@ -20,7 +20,14 @@ export default function Landing({ scrollTo }) {
 
       <div id="LandingButtons">
         <button onClick={() => scrollTo("About")}>About Axiom</button>
-        <button onClick={() => scrollTo("Contact")}>Schedule a Meeting</button>
+        <button onClick={() => scrollTo("Contact")}>Contact Axiom</button>
+        <a
+          href="https://myaccountviewonline.com/AccountView"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button>Client Account Login</button>
+        </a>
       </div>
     </div>
   );

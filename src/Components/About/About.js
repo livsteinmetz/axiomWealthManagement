@@ -7,25 +7,36 @@ export default function About() {
       <div id="AboutAxiom">
         <img src="/icon_white.png" alt="Pillars" />
         <div id="Definition">
-          <h3>Axiom</h3>
+          <h3>Axiom (n.)</h3>
           <h4>an established rule, principle or self-evident truth</h4>
           <h4>a principle or foundation upon which all else is built</h4>
           <p>
-            At Axiom Wealth Management, it’s not just business, it’s personal.
-            Solid personal relationships and sound financial practices are the
-            pillars upon which successful relationships are built and goals are
-            achieved. My average relationship exceeds 19 years and, for more
-            than half my client base, includes two or more generations of their
-            families. I help make financial goals clear and attainable, families
-            financially secure and dreams a reality. My axioms are:
+            Axiom is an independent financial planning and investment management
+            practice built on the established pillars of integrity, value and
+            education. Here, the priorities are simple:
           </p>
           <ul>
-            <li>Honesty and integrity are simply unquestionable.</li>
-            <li>As a fiduciary, always act in the clients' best interest.</li>
+            <li>Identify, clarify, and accomplish your financial goals</li>
+            <li>Simplify the complexities of a dynamic financial climate</li>
             <li>
-              Know the client; clearly understand current and evolving needs.
+              Develop plans to provide you with agency and confidence in your
+              financial future
             </li>
           </ul>
+          <p>
+            With an average client relationship exceeding 20 years – and two or
+            more generations of the families we serve representing more than
+            half our client base – clearly, clients value the work and advice
+            provided to help make their financial goals clear and attainable,
+            their families financially secure and their dreams become a reality.
+          </p>
+          <p>
+            <strong>
+              Axiom Wealth Management and Seth McHenry have been recognized as a
+              Philadelphia Magazine Five-Star Wealth Manager every year the
+              award has been granted.
+            </strong>
+          </p>
         </div>
       </div>
       <div id="AboutSethMcHenry">
@@ -35,20 +46,32 @@ export default function About() {
           <h4>LPL Financial Advisor</h4>
           <h4>LPL Registered Principal</h4>
           <p>
-            Seth, a 29-year veteran of the financial services industry, and his
-            wife Nancy live in Yardley, PA where as fourth-generation Bucks
-            County residents they raised their three children Scott, Shannon and
-            Ryan. Over the past 30 years, Seth has coached many local youth
-            sports teams and served in leadership positions and or board member
-            roles for his all children’s activities. As a Life Member of the
-            National Eagle Scout Association, he has served as a Boy Scout
-            leader and currently serves his church as the president of the board
-            of trustees, chair of the finance committee, as a deacon and in
-            various other roles. In his spare time, Seth can be found reading,
-            performing vocal music, swimming, running with his dogs, and
-            enjoying weekends at the beach in Barnegat Light, NJ. His
-            professional biography is outlined below.
+            Seth, a 30-year veteran of the financial services industry, and his
+            wife Nancy live in Yardley, PA where they raised their three
+            children Scott, Shannon and Ryan. Fourth-generation Bucks County
+            residents, they celebrated their 33rd anniversary in June, 2020.
           </p>
+          <p>
+            As a Life Member of the National Eagle Scout Association, Seth has
+            served in many Scout leadership roles, and currently serves his
+            church as the Treasurer, member of the Board of Trustees and Chair
+            of the Finance Committee. In his spare time, Seth can be found
+            reading, swimming, running with his dogs, and enjoying weekends at
+            the beach in Barnegat Light, NJ.
+          </p>
+          <div>
+            <strong>
+              Bucknell University, B.A., History and Classics, 1987
+              <br />
+              Merrill Lynch School of Financial Management, CFM, 1992
+              <br />
+              The College for Financial Planning, CRPC, 2005
+              <br />
+              Merrill Lynch University, CSNA, 2006
+              <br />
+              Securities Licenses: Series 7, 24, 63 and 65
+            </strong>
+          </div>
         </div>
       </div>
     </div>

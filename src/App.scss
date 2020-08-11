@@ -1,4 +1,6 @@
 @import "./index.scss";
+@import url("https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
 body {
   margin: 0;
@@ -99,8 +101,16 @@ button {
 
 p {
   color: $white;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 a {
   color: $secondary;
+}
+
+ul,
+li {
+  font-size: 18px;
+  margin-top: 12px;
 }

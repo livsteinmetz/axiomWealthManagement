@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 64px;
+  padding: 64px 64px 128px 64px;
 
   @media (max-width: $mobile) {
     height: auto;

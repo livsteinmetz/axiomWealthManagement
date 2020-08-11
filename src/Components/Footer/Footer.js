@@ -6,8 +6,7 @@ export default function Footer() {
     <div id="Footer">
       {window.innerWidth > 600 && (
         <p>
-          © 2020 Axiom Wealth Management.
-          {window.innerWidth < 600 && <br />}
+          © 2020 Axiom Wealth Management. {window.innerWidth < 600 && <br />}
           All rights reserved. <a href="/legal.html">Terms of use.</a>
         </p>
       )}

@@ -12,10 +12,11 @@
   padding: 16px;
   z-index: 10;
   overflow: hidden;
-  max-height: 84px;
+  max-height: 120px;
   transition: all 0.32s ease;
   @media (max-width: $mobile) {
-    background: $primary;
+    background: $dark;
+    max-height: 84px;
     box-shadow: 0 8px 16px 0 $shadow;
     flex-direction: column;
     text-align: center;
@@ -29,7 +30,7 @@
   }
 
   img {
-    height: 64px;
+    height: 72px;
     cursor: pointer;
 
     @media (max-width: $mobile) {
@@ -54,17 +55,22 @@
     }
 
     div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       font-weight: 500;
-      font-size: 20px;
+      font-size: 28px;
+      font-family: $fontHeader;
       color: $white;
-      padding: 24px 32px;
+      padding: 24px 0;
+      width: 132px;
       transition: all 0.16s;
       cursor: pointer;
       border-radius: 8px;
 
       &:hover {
         font-weight: 900;
-        background: rgba($secondary, 0.64);
+        background: rgba($dark, 0.64);
       }
 
       @media (max-width: $mobile) {

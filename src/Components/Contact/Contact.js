@@ -79,13 +79,20 @@ export default function Contact() {
           in touch.
         </p>
         <p>
-          Reach Seth through the form below, or feel free to use any of the
+          Reach Seth through the secure form, or feel free to use any of the
           following forms of contact.
+        </p>
+        <p>
+          1155 Quarry Commons Drive
+          <br />
+          Yardley PA 19067
         </p>
         <p id="Phones">
           Office: <a href="tel:2153214300">(215) 321-4300</a>
           <br />
           Mobile: <a href="tel:2153214300">(215) 514-9787</a>
+          <br />
+          Email: <a href="mailto:sethmchenry@lpl.com">sethmchenry@lpl.com</a>
         </p>
         <div id="Social">
           <a href="tel:2153214300">
@@ -99,7 +106,7 @@ export default function Contact() {
             <img src="/email.png" alt="Email" />
           </a>
           <a
-            href="https://www.linkedin.com/in/sethmchenryaxiomwealth/"
+            href="https://www.linkedin.com/company/axiomwealthmgmt"
             target="_blank"
             rel="noopener noreferrer"
           >
