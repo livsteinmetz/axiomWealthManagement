@@ -1,5 +1,5 @@
-import React from "react";
-import "./About.scss";
+import React from 'react'
+import './About.scss'
 
 export default function About() {
   return (
@@ -24,17 +24,16 @@ export default function About() {
             </li>
           </ul>
           <p>
-            With an average client relationship exceeding 20 years – and two or
+            Axiom's average client relationship exceeds 20 years, with two or
             more generations of the families we serve representing more than
-            half our client base – clearly, clients value the work and advice
-            provided to help make their financial goals clear and attainable,
-            their families financially secure and their dreams become a reality.
+            half our client base. Clearly, clients value the work and advice
+            provided to help make their financial goals clear and attainable and
+            their families financially confident.
           </p>
           <p>
             <strong>
-              Axiom Wealth Management and Seth McHenry have been recognized as a
-              Philadelphia Magazine Five-Star Wealth Manager every year the
-              award has been granted.
+              Seth McHenry has been recognized as a 9 time Philadelphia Magazine
+              Five-Star Wealth Manager (every year since 2012).
             </strong>
           </p>
         </div>
@@ -63,17 +62,14 @@ export default function About() {
             <strong>
               Bucknell University, B.A., History and Classics, 1987
               <br />
-              Merrill Lynch School of Financial Management, CFM, 1992
-              <br />
               The College for Financial Planning, CRPC, 2005
               <br />
-              Merrill Lynch University, CSNA, 2006
-              <br />
-              Securities Licenses: Series 7, 24, 63 and 65
+              Securities registrations held through LPL Financial: Series 7, 24,
+              63 and 65
             </strong>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }

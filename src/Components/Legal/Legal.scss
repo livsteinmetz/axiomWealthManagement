@@ -1,0 +1,25 @@
+@import '../../index.scss';
+
+#Legal {
+  width: 100vw;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 64px 128px 64px;
+  flex-direction: column;
+  text-align: left;
+
+  p {
+    text-align: left;
+    width: 100%;
+  }
+
+  @media (max-width: $mobile) {
+    height: auto;
+    flex-direction: column-reverse;
+    padding: 0px 32px 108px 32px;
+    align-items: center;
+  }
+}

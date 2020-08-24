@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from "react";
-import "./Services.scss";
+import React, { useState, useEffect } from 'react'
+import './Services.scss'
 
 export default function Services() {
-  const [showModal, setModal] = useState(false);
+  const [showModal, setModal] = useState(false)
 
   const Modal = () => {
     useEffect(() => {
-      document.body.style.overflow = showModal ? "hidden" : "auto";
-    });
+      document.body.style.overflow = showModal ? 'hidden' : 'auto'
+    })
 
     const handleClick = (e) => {
-      e.target.id === "Modal" && close(e);
-    };
+      e.target.id === 'Modal' && close(e)
+    }
     const close = (e) => {
-      e.stopPropagation();
-      setModal(false);
-    };
+      e.stopPropagation()
+      setModal(false)
+    }
     return showModal ? (
       <div id="Modal" onClick={handleClick}>
         <div id="ServicesModal">
@@ -98,7 +98,7 @@ export default function Services() {
             </li>
             <li>Financial aid strategies</li>
             <li>
-              Gift tax limits and trust usage strategies for education funding{" "}
+              Gift tax limits and trust usage strategies for education funding{' '}
             </li>
           </ul>
           <h4>Retirement Planning</h4>
@@ -194,8 +194,8 @@ export default function Services() {
           </ul>
         </div>
       </div>
-    ) : null;
-  };
+    ) : null
+  }
 
   return (
     <div id="Services">
@@ -254,11 +254,11 @@ export default function Services() {
             needs, goals and dreams, evaluating what tools you have in place,
             developing the tools you need to develop, and building a plan
             resilient to the challenges of risk and time. We will always work
-            together to achieve your goals, because at Axiom, it's not just
+            together to pursue your goals, because at Axiom, it's not just
             business. It's personal.
           </p>
         </div>
       </div>
     </div>
-  );
+  )
 }

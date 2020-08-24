@@ -1,37 +1,37 @@
-import React, { useState } from "react";
-import Input from "../Input/Input";
-import "./Contact.scss";
+import React, { useState } from 'react'
+import Input from '../Input/Input'
+import './Contact.scss'
 
 export default function Contact() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [status, setStatus] = useState("");
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+  const [status, setStatus] = useState('')
 
   function handleSubmit(e) {
-    e.preventDefault();
-    const form = document.getElementById("ContactForm");
-    const data = new FormData(form);
-    const req = new XMLHttpRequest();
-    req.open(form.method, form.action);
-    req.setRequestHeader("Accept", "application/json");
+    e.preventDefault()
+    const form = document.getElementById('ContactForm')
+    const data = new FormData(form)
+    const req = new XMLHttpRequest()
+    req.open(form.method, form.action)
+    req.setRequestHeader('Accept', 'application/json')
     req.onreadystatechange = () => {
-      if (req.readyState !== XMLHttpRequest.DONE) return;
+      if (req.readyState !== XMLHttpRequest.DONE) return
       if (req.status === 200) {
-        setName("");
-        setEmail("");
-        setMessage("");
-        setStatus("Thanks for reaching out!");
+        setName('')
+        setEmail('')
+        setMessage('')
+        setStatus('Thanks for reaching out!')
       } else {
-        const e = JSON.parse(req.response).error;
+        const e = JSON.parse(req.response).error
         setStatus(
           `whoops - ${
-            e.includes("email") ? "invalid email." : "gotta fill out the form."
+            e.includes('email') ? 'invalid email.' : 'gotta fill out the form.'
           }`
-        );
+        )
       }
-    };
-    req.send(data);
+    }
+    req.send(data)
   }
 
   return (
@@ -122,5 +122,5 @@ export default function Contact() {
         </div>
       </div>
     </div>
-  );
+  )
 }
