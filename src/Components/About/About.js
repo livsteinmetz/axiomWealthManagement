@@ -39,7 +39,7 @@ export default function About() {
         </div>
       </div>
       <div id="AboutSethMcHenry">
-        <img src="/seth.png" alt="Seth McHenry" />
+        <img src="/seth.jpg" alt="Seth McHenry" />
         <div>
           <h3>Seth McHenry, CRPC</h3>
           <h4>LPL Financial Advisor</h4>

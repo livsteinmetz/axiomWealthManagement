@@ -8,7 +8,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
-  padding: 32px 64px 128px 64px;
+  padding: 64px 64px 128px 64px;
 
   @media (max-width: $mobile) {
     padding: 32px;
@@ -25,6 +25,7 @@
 
   ul {
     color: $white;
+    padding: 0px 0px 0px 16px;
   }
 
   img {
@@ -39,10 +40,24 @@
     color: $secondary;
   }
 
-  #ServicesAxiom {
+  #OurServices {
     display: flex;
     align-items: center;
     margin: 16px 0;
+    @media (max-width: $mobile) {
+      flex-direction: column;
+    }
+  }
+
+  #OurGuidingPrinciples {
+    display: flex;
+    align-items: center;
+    margin: 64px 0 0 0;
+    img {
+      border-radius: 50%;
+      border: 7px solid white;
+      padding: 5px;
+    }
     @media (max-width: $mobile) {
       flex-direction: column;
     }

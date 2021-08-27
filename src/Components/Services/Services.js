@@ -60,7 +60,7 @@ export default function Services() {
           <ul>
             <li>Asset allocation analysis</li>
             <li>
-              Risk and reward (risk tolerance and risk capacity analysis)  
+              Risk and reward (risk tolerance and risk capacity analysis)
             </li>
             <li>Diversification analysis  </li>
             <li>Analysis and research on individual securities  </li>
@@ -124,11 +124,11 @@ export default function Services() {
             </li>
             <li>
               General trust planning and education – types, features, and
-              taxation 
+              taxation
             </li>
             <li>
               Explanation of estate planning structures/documents – wills, POA,
-              Trusts, etc. 
+              Trusts, etc.
             </li>
             <li>
               Explanation of types/treatment of trust income – accounting,
@@ -151,7 +151,7 @@ export default function Services() {
               Review employee stock options basics, ISOs, NSOs, planning
               strategies, etc.
             </li>
-              
+
             <li>
               Tax implications of various stock plans – Restricted, phantom,
               SARs, ESPP
@@ -200,9 +200,9 @@ export default function Services() {
   return (
     <div id="Services">
       <Modal />
-      <div id="ServicesAxiom">
+      <div id="OurServices">
         <img src="/icon_white.png" alt="Pillars" />
-        <div id="Definition">
+        <div>
           <h3>Our Services</h3>
           <p>
             New clients come to Axiom for guidance on all of life's financial
@@ -217,6 +217,12 @@ export default function Services() {
             an overwhelmingly comprehensive list of complete services &
             offerings.
           </p>
+        </div>
+      </div>
+
+      <div id="OurGuidingPrinciples">
+        <img src="/seth-2.jpg" alt="Seth McHenry" />
+        <div>
           <h3>Our Guiding Principles</h3>
           <ul>
             <li>
@@ -228,7 +234,7 @@ export default function Services() {
               clients is of the utmost importance.
             </li>
             <li>
-              ​Peaks and valleys don't count. An advisor is not a genius when
+              Peaks and valleys don't count. An advisor is not a genius when
               markets rise and is not incompetent when they fall.
             </li>
             <li>
