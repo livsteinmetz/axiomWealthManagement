@@ -32,8 +32,8 @@ export default function About() {
           </p>
           <p>
             <strong>
-              Seth McHenry has been recognized as a 9 time Philadelphia Magazine
-              Five-Star Wealth Manager (every year since 2012).
+              Seth McHenry has been recognized as a Philadelphia Magazine
+              Five-Star Wealth Manager for 10 consecutive years, since the award's inception, one of only 72 Philadelphia area financial advisors to achieve that distinction.
             </strong>
           </p>
         </div>
@@ -45,10 +45,10 @@ export default function About() {
           <h4>LPL Financial Advisor</h4>
           <h4>LPL Registered Principal</h4>
           <p>
-            Seth, a 30-year veteran of the financial services industry, and his
+            Seth, a 32-year veteran of the financial services industry, and his
             wife Nancy live in Yardley, PA where they raised their three
             children Scott, Shannon and Ryan. Fourth-generation Bucks County
-            residents, they celebrated their 33rd anniversary in June, 2020.
+            residents, they celebrated their 34rd anniversary in June, 2021.
           </p>
           <p>
             As a Life Member of the National Eagle Scout Association, Seth has

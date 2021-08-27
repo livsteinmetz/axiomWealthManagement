@@ -25,8 +25,7 @@ export default function Contact() {
       } else {
         const e = JSON.parse(req.response).error
         setStatus(
-          `whoops - ${
-            e.includes('email') ? 'invalid email.' : 'gotta fill out the form.'
+          `whoops - ${e.includes('email') ? 'invalid email.' : 'gotta fill out the form.'
           }`
         )
       }
@@ -90,7 +89,7 @@ export default function Contact() {
         <p id="Phones">
           Office: <a href="tel:2153214300">(215) 321-4300</a>
           <br />
-          Mobile: <a href="tel:2153214300">(215) 514-9787</a>
+          Mobile: <a href="tel:2152341317">(215) 234-1317</a>
           <br />
           Email: <a href="mailto:sethmchenry@lpl.com">sethmchenry@lpl.com</a>
         </p>

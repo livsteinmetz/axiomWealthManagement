@@ -206,7 +206,7 @@ export default function Services() {
           <h3>Our Services</h3>
           <p>
             New clients come to Axiom for guidance on all of life's financial
-            challenges. With 30 years experience in family financial planning,
+            challenges. With over 30 years experience in family financial planning,
             Axiom is well versed in handling all investment planning and
             financial management needs: general saving and investing, changes in
             employment, college, divorce, retirement, inheritance, estates, and
